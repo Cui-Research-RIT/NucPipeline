@@ -7,5 +7,6 @@
 [receive]
 	denyNonFastforwards = true
 [remote "origin"]
-	url = https://github.com/Cui-Research-RIT/NucPipeline.git
+	url = git@github.com:Cui-Research-RIT/NucPipeline.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
+[user]
