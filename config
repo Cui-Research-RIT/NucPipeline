@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	sharedrepository = 0666
+	worktree = /shared/fxcsbi/nucpipeline
+[receive]
+	denyNonFastforwards = true
+[remote "origin"]
+	url = https://github.com/Cui-Research-RIT/NucPipeline.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
